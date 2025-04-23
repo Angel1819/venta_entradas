@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-style: sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+/* Estructura general */
+.contenedor-section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2em 1em;
+}
+
+header {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+}
+
+.navbar {
+  display: inline-flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.nav {
+  list-style-type: none;
+  display: inline-flex;
+  gap: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+.nav a {
+  list-style-type: none;
+  color: #ffffff;
+  padding: 0.3em 1em;
+  border-radius: 2px;
+  transition: background 0.3 ease;
+}
+
+.nav a:hover,
+.nav a:active {
+  background-color: #e10073;
+}
+
+.hero {
+  background: linear-gradient(to right, #1a1a1a, #4a4a4a);
+  color: #ffffff;
+  text-align: center;
+  padding: 4em 1em;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.eventos {
+  margin-top: 3em;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.evento-grid {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.evento-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 300px;
+  padding: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+}
+
+.evento-card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.btn-comprar {
+  margin-top: 1em; /* Espaciado respecto al contenido superior */
+  width: auto; /* Permite dimensiones personalizadas */
+  background-color: #e10073; /* Fondo color rosado destacado */
+  color: #ffffff; /* Texto blanco */
+  padding: 0.7em 1.5em; /* Relleno interno */
+  border-radius: 30px; /* Bordes redondeados tipo píldora */
+  text-decoration: none; /* Sin subrayado */
+  font-weight: bold; /* Texto en negrita */
+}
+
+.contacto {
+  display: flex; /* Organización en línea de los elementos */
+  justify-content: space-between; /* Distribuye los bloques a los extremos */
+  flex-wrap: wrap; /* Ajusta automáticamente en pantallas pequeñas */
+  background-color: #4a4a4a; /* Fondo gris oscuro */
+  color: #ffffff; /* Texto blanco */
+  margin-bottom: 3em; /* Espaciado inferior */
+}
+
+.contacto aside {
+  min-width: 250px;
+  margin-bottom: 1em;
+}
+
+form {
+  flex: 1;
+  min-width: 250px;
+  margin: 2em;
+}
