@@ -154,3 +154,80 @@ button {
 button:hover {
   background-color: #e10073;
 }
+
+.equipo {
+  text-align: center;
+  padding: 4em 2em;
+  background-color: #ffffff;
+}
+
+.equipo-grid {
+  display: flex;
+  justify-content: center;
+  gap: 10em;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+.miembro {
+  max-width: 150px;
+}
+
+.miembro img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+.footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 3em 2em;
+}
+
+.footer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2em;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer h4 {
+  margin-bottom: 0.5em;
+  color: #ffffff;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 0.5em;
+}
+
+.logo-footer {
+  width: 120px;
+}
+
+.social-icons a img {
+  width: 24px;
+  margin-right: 10px;
+  gap: 0.8em;
+}
+
+.redes {
+  display: flex;
+  gap: 1.1em; /* puedes subirlo o bajarlo hasta que se vea bien */
+}
+
+.btn-ayuda {
+  background-color: #e10073;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 20px;
+  margin-top: 1em;
+}
